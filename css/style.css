@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-in;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s ease-in;
+
+}
+ 
+html{
+    font-size: 80%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+} 
+
+.header{
+    padding:2rem 9%;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow:0 .5rem 1.5rem 0 rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #c20000;
+}
+
+.header .logo{
+    font-size: 1.5rem;
+    color:#ffffff;
+}
+
+.header .navbar a{
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-left: 2rem;
+} 
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 6px solid red ;
+    width: 330px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-left: 3rem;
+    height: 370px;
+}
+
+.h2 .card{
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.card p{
+    font-size: 20px;
+    margin: 0;
+} 
+
+
+/* .card .image .img{
+    background-size: cover; 
+    margin: 0;
+    height: 200px;
+    width: 100%;
+} */
+
+
+
