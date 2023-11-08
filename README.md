@@ -4,12 +4,12 @@
 
 #### Desenvolvimento Web
 
-Este projeto terá a finalidade de ser um site de notícias e será desenvolvido durante as aulas de desenvolvimento web.  
+Este projeto terá a finalidade de ser um site de notícias que será desenvolvido durante as aulas de desenvolvimento web ministradas pelo professor João Cunha. Nosso objetivo é criar um ambiente online dinâmico e informativo, onde você poderá encontrar as notícias mais recentes e relevantes de várias áreas, como saúde, turismo, economia, cultura e muito mais.
 
 
 ##### Linguagens utilizadas
 
- As linguagens utilizadas pra esse projeto são:  
+ As linguagens que estão sendo utilizadas pra esse projeto são:  
 
     - HTML
     - CSS
