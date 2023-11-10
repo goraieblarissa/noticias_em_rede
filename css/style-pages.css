@@ -190,10 +190,27 @@ html{
     .card {
       margin-bottom: 40px;
     }
+
+    html{
+      font-size: 55%;
+      flex-direction: column;
+
+  }
+
+    .header{
+        padding: 2rem;
+        flex-direction: column;
+
+    }
   }
   
   @media (max-width: 650px) {
     .lists {
       grid-template-columns: 1fr;
     }
+    html{
+      font-size: 50%;
+      flex-direction: column;
+
+  }
   }
