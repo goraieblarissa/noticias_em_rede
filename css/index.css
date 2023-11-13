@@ -12,15 +12,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffffff4d;
+    background: #ffffffd7;
 }
 
- .container {
+.container {
     width: 80%;
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
- }
+}
 
 .form-image{
     width: 50%;
@@ -96,6 +96,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
+    padding-right: 4rem;
 }
 
 .input-box input{
@@ -168,19 +169,19 @@ body {
     color: #fff;
 }
 
-@media screen and (max-width: 1330px){
+@media screen and (max-widht: 1330px){
     .form-image{
-        display: 100;
+        display: none;
     }
     .container{
-        width: 100%;
+        width: 50%;
     }
     .form{
         width: 100%;
     }
 }
 
-@media screen and (max-width: 1064px){
+@media screen and (max-widht: 1064px){
     .container{
         width: 90%;
         height: auto;
@@ -204,4 +205,4 @@ body {
 
 
     }
-}
+} 
