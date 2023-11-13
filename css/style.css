@@ -57,7 +57,7 @@ body{
     align-items: center;
     flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
     justify-content: flex-start; /* Alinha os elementos à esquerda */
-    margin-left: 5rem;
+    margin-left: 3.5rem;
 }
 
 .card{
