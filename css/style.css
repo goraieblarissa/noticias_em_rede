@@ -148,7 +148,9 @@ body{
 
     }
     .card {
-        flex-direction: column;
+        flex-direction: column; 
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 20px;
     }
 
 }
