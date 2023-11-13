@@ -56,8 +56,8 @@ body{
     /* justify-content: center; */
     align-items: center;
     flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
-    justify-content: flex-start; /* Alinha os elementos à esquerda */
-    margin-left: 3.5rem;
+    justify-content: center; /* Alinha os elementos à esquerda */
+    margin: auto;
 }
 
 .card{
