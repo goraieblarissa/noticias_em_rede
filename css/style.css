@@ -58,6 +58,7 @@ body{
     flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
     justify-content: center; /* Alinha os elementos à esquerda */
     margin: auto;
+    padding-top: 80px; 
 }
 
 .card{
@@ -71,6 +72,9 @@ body{
     margin-left: 3rem;
     height: 370px;
     cursor: pointer;
+    transition: margin-right 0.2s ease-in; /* Adiciona transição para suavizar a mudança de margem */
+    margin: 0 3rem 3rem 0; /* Adiciona margem inferior para todos os cards, inicialmente configurada para 0 */
+
 }
 
 .card:hover{
@@ -138,7 +142,7 @@ body{
 
     }
     .card {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     
 }
@@ -151,9 +155,8 @@ body{
 
     }
     .card {
-        flex-direction: column; 
-        margin-right: 0; /* Remove right margin */
-        margin-bottom: 20px;
+        margin-right: 0; /* Remove a margem direita para telas menores */
+        margin-bottom: 3rem;/* Adiciona margem inferior entre os cards empilhados */
     }
 
 }
