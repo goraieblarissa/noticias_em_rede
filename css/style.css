@@ -107,25 +107,38 @@ body{
     width: 325px;
 } 
 
-.contato .image{
-    
+
+.sobre .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:.2rem; 
 }
 
-.contato .content{
+.sobre .row .content{
     flex: 1 1 45rem;  
 }
 
-.contato .content h3{
-    font-size: 4.5rem;
+.sobre .row .content h3{
+    font-size: 3rem;
     line-height: 1.8;
 }
 
-.contato .content p{
-    font-size: 1.7rem;
+.sobre .row .content p{
+    font-size: 1.2rem;
     line-height: 1.8;
     padding: 1rem 0;    
+    margin-right: 10%;
 }
 
+
+.sobre .row .image{
+    flex: 1 1 45rem; 
+}
+
+.sobre .row .image img{
+    width: 100%;
+}
 
 
 @media (max-width:991px){
